@@ -31,6 +31,7 @@ nav {
 nav a {
   text-decoration: none;
   padding: 20px;
+  font-size: 24px;
 }
 
 a:hover {
@@ -58,7 +59,7 @@ a:hover {
 
 .company-title {
   font-size: 56px;
-  color: aqua;
+  color: #8CE0EB;
   margin-top: 275px;
 }
 
@@ -80,6 +81,7 @@ a:hover {
   font-size: 20px;
   line-height: 2;
   padding: 15px;
+  margin: 20px;
 }
 
 .services {
@@ -101,6 +103,7 @@ a:hover {
 .services-content {
   font-size: 20px;
   line-height: 2;
+  margin: 20px;
 }
 
 .contact {
@@ -151,18 +154,81 @@ input {
 }
 
 .footer {
-  background-color: aqua;
-  padding: 20px;
+  background-color: #8CE0EB;
+   padding: 20px; 
   align-content: center;
   text-align: center;
   font-size: 18px;
   margin-top: 15px;
+  font-weight: bold;
+
 }
 
-@media (min-width: 300px) {
-  html {
+@media (max-width:640px){
+.about-title{
+  font-size: 48px;
+}
+
+.about-p{
+  margin: 25px;
+}
+
+.services-title{
+  font-size: 48px;
+}
+
+
+.services-content{
+  margin: 25px;
+}
+
+.contact-title{
+  font-size: 48px;
+}
+.contact-info{
+  font-size: 36px;
+}
+
+.newsletter-title{
+  font-size: 40px;
+  margin: 20px;
+  text-align: center;
+}
+.newsletter{
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+form{
+  align-content: center;
+  margin-left: 35px;
+}
+
+.links{
+  font-size: 24px;
+  
+}
+
+.links a {
+flex-direction: column;
+}
+
+
+}
+
+@media (min-width:300px) and (max-width:510px) {
+.company-title{
+  text-align: center;
+  font-size: 60px;
+}
+}
+
+
+/* @media (min-width: 300px) {
+   html {
     max-width: 90%;
-  }
+  } 
   .company-title {
     max-width: 90%;
     display: flex;
@@ -187,4 +253,4 @@ input {
   form {
     align-items: center;
   }
-}
+} */
